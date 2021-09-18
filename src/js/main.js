@@ -22,9 +22,9 @@ const works_id = ['QImZWQIbc8']
 
 const subjects = ['lengua', 'matematicas', 'tecnologia', 'plastica', 'or_emp', 'historia', 'ingles']
 
-
+//
 if(redir_from === 'gmail' && email === mails[0] && subj === subjects[0] && work_id === works_id[0]){
     console.log(`Redirected From Gmail || Clicked by: ${mails[0]}`);
     console.log(`Subject: ${subjects[0]}`);
-    console.log(``);
+    console.log(`Work ID: ${works_id[0]}`);
 }
