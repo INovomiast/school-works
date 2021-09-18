@@ -1,6 +1,8 @@
 //Redirect Function
-const redirect_from = urlParams.get('redirect_from');
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const redir_from = urlParams.get('redirect_from');
 
-if (redirect_from == "gmail"){
-    window.location.href = 'https://youtube.com/';
+if(redir_from === 'gmail'){
+    console.log('Redirected From Gmail')
 }
