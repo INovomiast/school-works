@@ -10,3 +10,7 @@ html{
 header{
     width: 100%;
 }
+
+.page_title{
+    font-size: medium;
+}
