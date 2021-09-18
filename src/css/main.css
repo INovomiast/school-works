@@ -18,6 +18,6 @@ header{
 
 header:hover{
     background-color: #d9534f;
-    cursor: pointer;
+    cursor:default;
     user-select: none;
 }
