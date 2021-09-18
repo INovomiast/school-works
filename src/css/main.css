@@ -21,3 +21,8 @@ header:hover{
     cursor:default;
     user-select: none;
 }
+
+.photo_1{
+    width: 40%;
+    height: 50%;
+}
