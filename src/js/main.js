@@ -27,5 +27,5 @@ if(redir_from === 'gmail' && email === mails[0] && subj === subjects[0] && work_
     console.log(`Redirected From Gmail || Clicked by: ${mails[0]}`);
     console.log(`Subject: ${subjects[0]}`);
     console.log(`Work ID: ${works_id[0]}`);
-    window.location.href = '/school-works/works/subjects/lengua/QlmZWQlbc8';
+    window.location.href = 'https://inovomiast.github.io/school-works/works/subjects/lengua/QImZWQIbc8/';
 }
