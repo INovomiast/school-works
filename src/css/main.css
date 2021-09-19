@@ -28,6 +28,18 @@ header:hover {
     border-radius: 12px;
 }
 
+.photo_2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.photo_3 {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
 .photo_frame {
     border-radius: 12px;
     border: 2px solid black;
