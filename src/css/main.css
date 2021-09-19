@@ -1,34 +1,34 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-html{
+html {
     height: 100%;
 }
 
-header{
+header {
     width: 100%;
     height: 72px;
 }
 
-.page_title{
+.page_title {
     font-size: 50px;
 }
 
-header:hover{
+header:hover {
     background-color: #d9534f;
     cursor:default;
     user-select: none;
 }
 
-.photo_1{
+.photo_1 {
     width: 100%;
     height: 100%;
     border-radius: 12px;
 }
 
-.photo_frame{
+.photo_frame {
     border-radius: 12px;
     border: 2px solid black;
     border-bottom-left-radius: 0;
@@ -38,11 +38,11 @@ header:hover{
     height: 500px;
 }
 
-.photo_frame_title{
+.photo_frame_title {
     
 }
 
-.photo_frame_bottom{
+.photo_frame_bottom {
     width: 100%;
     height: 30px;
     background-color: white;
@@ -55,13 +55,13 @@ header:hover{
     border-right: black solid 2px;
 }
 
-.like_unselected{
+.like_unselected {
     display: inline; /*Default*/
     color: black;
     user-select: none;
 }
 
-.like_unselected:hover{
+.like_unselected:hover {
     cursor: pointer;
     color: cornflowerblue;
     animation: like_anim 1s ease-in;
