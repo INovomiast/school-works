@@ -33,9 +33,7 @@ if(redir_from === 'gmail' && email === mails[0] && subj === subjects[0] && work_
 //Like Function
 const like_btn = document.getElementById('like_btn');
 
-const like_anim_prop = 'like_anim 1s ease-in';
-
 like_btn.addEventListener('click', () => {
-    like_btn.style.animation = like_anim_prop;
+    like_btn.style.animation = 'like_anim 1s';
     like_btn.style.color = 'royalblue';
 });
