@@ -37,6 +37,5 @@ const like_anim_prop = 'like_anim 1s ease-in';
 
 like_btn.addEventListener('click', () => {
     like_btn.style.animation = like_anim_prop;
-    like_btn.className = 'material-icons-filled';
     like_btn.style.color = 'royalblue';
 });
