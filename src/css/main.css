@@ -65,3 +65,12 @@ header:hover {
     cursor: pointer;
     color: cornflowerblue;
 }
+
+@keyframes like_roll_anim {
+    from{
+        transform: rotateX(0deg);
+    }
+    to{
+        transform: rotateX(360deg);
+    }
+}
