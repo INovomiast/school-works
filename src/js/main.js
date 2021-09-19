@@ -41,6 +41,7 @@ like_btn.addEventListener('click', () => {
         like_btn.style.color = 'royalblue';
         liked = true;
     }else{
+        like_btn.style.animation = 'unlike_roll_anim 0.7s ease-in';
         like_btn.style.color = 'black';
         liked = false;
     }
