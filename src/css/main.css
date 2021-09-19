@@ -61,12 +61,12 @@ header:hover {
     user-select: none;
     text-align: right;
     padding-right: 10px;
-    transition: color 0.7s ease-in-out;
+    transition: color 0.3s ease-in-out;
 }
 
 .like_unselected:hover {
     cursor: pointer;
-    color: cornflowerblue;
+    color: royalblue;
 }
 
 @keyframes like_roll_anim {
