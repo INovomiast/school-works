@@ -59,6 +59,7 @@ header:hover {
     display: inline; /*Default*/
     color: black;
     user-select: none;
+    transition: color 0.7s ease-in-out;
 }
 
 .like_unselected:hover {
