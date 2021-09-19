@@ -70,9 +70,9 @@ header:hover{
 /*Animations*/
 @keyframes like_anim {
     0%{
-        transform: rotateX(0deg);
+        transform: rotateZ(0deg);
     }100%{
-        transform: rotateX(360deg);
+        transform: rotateZ(360deg);
         color: cornflowerblue;
     }
 }
