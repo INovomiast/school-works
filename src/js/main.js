@@ -29,3 +29,14 @@ if(redir_from === 'gmail' && email === mails[0] && subj === subjects[0] && work_
     console.log(`Work ID: ${works_id[0]}`);
     window.location.href = 'https://inovomiast.github.io/school-works/works/subjects/lengua/QImZWQIbc8/';
 }
+
+//Like Function
+const like_btn = document.getElementById('like_btn');
+
+const like_anim_prop = 'like_anim 1s ease-in';
+
+like_btn.addEventListener('click', () => {
+    like_btn.style.animation = like_anim_prop;
+    like_btn.className = 'material-icons-filled';
+    like_btn.style.color = 'royalblue';
+});
