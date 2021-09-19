@@ -52,7 +52,7 @@ like_btn.addEventListener('click', () => {
 });
 
 like_btn_2.addEventListener('click', () => {
-    if(liked === false) {
+    if(liked_2 === false) {
         like_btn_2.style.animation = 'like_roll_anim 0.7s ease-in';
         like_btn_2.style.color = 'royalblue';
         liked_2 = true;
@@ -64,7 +64,7 @@ like_btn_2.addEventListener('click', () => {
 });
 
 like_btn_3.addEventListener('click', () => {
-    if(liked === false) {
+    if(liked_3 === false) {
         like_btn_3.style.animation = 'like_roll_anim 0.7s ease-in';
         like_btn_3.style.color = 'royalblue';
         liked_3 = true;
