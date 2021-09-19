@@ -64,15 +64,4 @@ header:hover {
 .like_unselected:hover {
     cursor: pointer;
     color: cornflowerblue;
-    animation: like_anim 1s ease-in;
-}
-
-/*Animations*/
-@keyframes like_anim {
-    0%{
-        transform: rotateZ(0deg);
-    }100%{
-        transform: rotateZ(360deg);
-        color: cornflowerblue;
-    }
 }
