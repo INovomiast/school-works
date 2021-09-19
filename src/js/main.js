@@ -32,10 +32,36 @@ if(redir_from === 'gmail' && email === mails[0] && subj === subjects[0] && work_
 
 //Like Function
 const like_btn = document.getElementById('like_btn');
+const like_btn_2 = document.getElementById('like_btn_2');
+const like_btn_3 = document.getElementById('like_btn_3');
 
 let liked = false
 
 like_btn.addEventListener('click', () => {
+    if(liked === false) {
+        like_btn.style.animation = 'like_roll_anim 0.7s ease-in';
+        like_btn.style.color = 'royalblue';
+        liked = true;
+    }else{
+        like_btn.style.animation = 'unlike_roll_anim 0.7s ease-in';
+        like_btn.style.color = 'black';
+        liked = false;
+    }
+});
+
+like_btn_2.addEventListener('click', () => {
+    if(liked === false) {
+        like_btn.style.animation = 'like_roll_anim 0.7s ease-in';
+        like_btn.style.color = 'royalblue';
+        liked = true;
+    }else{
+        like_btn.style.animation = 'unlike_roll_anim 0.7s ease-in';
+        like_btn.style.color = 'black';
+        liked = false;
+    }
+});
+
+like_btn_3.addEventListener('click', () => {
     if(liked === false) {
         like_btn.style.animation = 'like_roll_anim 0.7s ease-in';
         like_btn.style.color = 'royalblue';
