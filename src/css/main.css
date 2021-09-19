@@ -64,6 +64,7 @@ header:hover{
 .like_unselected:hover{
     cursor: pointer;
     color: cornflowerblue;
+    animation: like_anim 1s ease-in;
 }
 
 /*Animations*/
