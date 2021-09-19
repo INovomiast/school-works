@@ -71,18 +71,18 @@ header:hover {
 
 @keyframes like_roll_anim {
     from{
-        transform: rotateY(0deg);
+        transform: rotateX(0deg);
     }
     to{
-        transform: rotateY(360deg);
+        transform: rotateX(360deg);
     }
 }
 
 @keyframes unlike_roll_anim {
     from{
-        transform: rotateY(0deg);
+        transform: rotateX(-0deg);
     }
     to{
-        transform: rotateY(-360deg);
+        transform: rotateX(-360deg);
     }
 }
