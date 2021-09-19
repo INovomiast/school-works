@@ -38,6 +38,7 @@ let liked = false
 like_btn.addEventListener('click', () => {
     if(liked === false) {
         like_btn.style.color = 'royalblue';
+        liked = true;
     }else{
         like_btn.style.color = 'black';
     }
