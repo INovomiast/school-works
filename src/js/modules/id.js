@@ -8,4 +8,8 @@ function generate(){
     id_display.innerText = result;
 }
 
+function gen_new(){
+    window.location.reload();
+}
+
 generate();
