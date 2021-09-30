@@ -4,8 +4,7 @@ function generate(){
     fP = ('000' + fP.toString(36)).slice(-3);
     sP = ('000' + sP.toString(36)).slice(-3);
     const result = fP + sP;
-    const id_display = document.getElementById('');
-
+    const id_display = document.getElementById('id_display');
     id_display.innerText = result;
 }
 
