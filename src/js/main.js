@@ -34,6 +34,7 @@ if(redir_from === 'gmail' && email === mails[0] && subj === subjects[0] && work_
     console.log(`Work ID: ${works_id[1]}`);
     window.location.href = 'https://inovomiast.github.io/school-works/works/subjects/filosofia/1fx2v541xz43lr/';
 }
+//This Now will Work!
 
 //Like Function
 const like_btn = document.getElementById('like_btn');
