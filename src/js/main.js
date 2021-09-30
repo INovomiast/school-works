@@ -6,21 +6,21 @@ const email = urlParams.get('email');
 const subj = urlParams.get('subject');
 const work_id = urlParams.get('work_id');
 
-const mails = ["juanfrancisco.medina@salesianos.edu", "joseantonio.perez@salesianos.edu", ""]
+const mails = ["juanfrancisco.medina@salesianos.edu", "joseantonio.perez@salesianos.edu"]
 
-const works_id = ['QImZWQIbc8']
+const works_id = ['QImZWQIbc8', '1fx2v541xz43lr']
 
 //ID Table
 /**
  * QImZWQIbc8 || Lengua || Describir Foto y Pasar Fotos
- * 
+ * 1fx2v541xz43lr || Filosofia || Resumen y Actividades
  * 
  *  
  */
 
 
 
-const subjects = ['lengua', 'matematicas', 'tecnologia', 'plastica', 'or_emp', 'historia', 'ingles']
+const subjects = ['lengua', 'matematicas', 'tecnologia', 'plastica', 'or_emp', 'historia', 'ingles', 'religion', 'filosofia'];
 
 //
 if(redir_from === 'gmail' && email === mails[0] && subj === subjects[0] && work_id === works_id[0]){
@@ -28,6 +28,11 @@ if(redir_from === 'gmail' && email === mails[0] && subj === subjects[0] && work_
     console.log(`Subject: ${subjects[0]}`);
     console.log(`Work ID: ${works_id[0]}`);
     window.location.href = 'https://inovomiast.github.io/school-works/works/subjects/lengua/QImZWQIbc8/';
+}else if(redir_from === 'classroom' && subj === subjects[8] && works_id[1]){
+    console.log('Redirected From Classroom');
+    console.log(`Subject: ${subjects[8]}`);
+    console.log(`Work ID: ${works_id[1]}`);
+    window.location.href = 'https://inovomiast.github.io/school-works/works/subjects/filosofia/1fx2v541xz43lr/';
 }
 
 //Like Function
