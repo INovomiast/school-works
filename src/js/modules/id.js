@@ -5,3 +5,5 @@ function generate(cq){
     sP = ('000' + sP.toString(36)).slice(-3);
     console.log(fP + sP);
 }
+
+generate();
