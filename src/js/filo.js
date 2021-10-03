@@ -21,3 +21,9 @@ next_btn_2.addEventListener('click', () => {
 btn_finish.addEventListener('click', () => {
     window.location.href = 'https://inovomiast.github.io/school-works/works/subjects/filosofia/1fx2v541xz43lr/finish/';
 });
+
+document.body.onload = () => {
+    wrk_blk_1.style.display = 'block';
+    wrk_blk_2.style.display = 'none';
+    wrk_blk_3.style.display = 'none';
+}
