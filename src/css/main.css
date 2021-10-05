@@ -131,3 +131,10 @@ header:hover {
     width: 35%;
     height: 50px;
 }
+
+.exp_block{
+    width: 80%;
+    background-color: rgba(222, 184, 135, 0.685);
+    border: 2px solid rgba(66, 30, 30, 0.726);
+    border-radius: 12px;
+}
