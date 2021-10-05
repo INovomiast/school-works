@@ -137,4 +137,5 @@ header:hover {
     background-color: rgba(222, 184, 135, 0.685);
     border: 2px solid rgba(66, 30, 30, 0.726);
     border-radius: 12px;
+    font-size: 20px;
 }
