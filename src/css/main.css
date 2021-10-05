@@ -126,3 +126,8 @@ header:hover {
         transform: rotateX(-360deg);
     }
 }
+.btn-custom-filo-next{
+    font-size: 25px;
+    width: 50%;
+    height: 40px;
+}
