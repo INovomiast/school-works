@@ -137,5 +137,35 @@ header:hover {
     background-color: rgba(222, 184, 135, 0.685);
     border: 2px solid rgba(66, 30, 30, 0.726);
     border-radius: 12px;
-    font-size: 20px;
+    font-size: 20px ;
+}
+
+.wrapper{
+    position: relative;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: 240px;
+}
+
+.line-area{
+    display: block;
+    width: 70%;
+    height: 5px;
+    background: #262626;
+    position: absolute;
+    top: 49%;
+    left: 15%;
+}
+
+.wrapper .timeline-area{
+    height: 100%;
+}
+
+.single-item{
+    width: 6%;
+    display: inline-block;
+    position: relative;
 }
