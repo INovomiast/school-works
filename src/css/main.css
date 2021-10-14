@@ -170,6 +170,20 @@ header:hover {
     position: relative;
 }
 
+.key_xd{
+    
+}
+
 table, th, td {
-    border:1px solid black;
+    border:2px solid #ffffff;
+    padding: 14px;
+}
+
+tr{
+    font-size: 18px;
+}
+
+.timeline_table{
+    text-align: center;
+    font-size: 25px;
 }
