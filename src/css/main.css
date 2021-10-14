@@ -181,6 +181,11 @@ table, th, td {
 
 tr{
     font-size: 18px;
+    background-color: rgb(102, 102, 102);
+}
+
+th{
+    background-color: orangered;
 }
 
 .timeline_table{
