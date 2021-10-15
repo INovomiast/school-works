@@ -7,13 +7,32 @@
     <title>FIN! - Merli, Resumen Tema 1 y Actividades - Filosofia - SchoolWorks</title>
     <!-- Bootswatch Theme [Litera] -->
     <link rel="stylesheet" href="https://bootswatch.com/5/litera/bootstrap.min.css">
+    <!-- Font Awesome CND -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="../../../../src/css/main.css">
+    <link rel="stylesheet" href="../../../../../src/css/main.css">
     <!-- Favicon -->
     <link rel="shortcut icon" href="../../../../favicon.ico" type="image/x-icon">
 
 </head>
-<body class="bg-dark">
+<body class="bg-dark" style="color: white;">
+    <center>
+        <h1>Fin!</h1>
+        <br>
+        <h2>Si te ha gustado el trabajo dale al corazón!</h2>
+        <br>
+        <br>
+        <h2><i class="fa-solid fa-heart" id="like"></i></h2>
+    </center>
     
+    
+    <script>
+        const like_heart = document.getElementById('like');
+        like_heart.addEventListener('click', () => {
+           like_heart.style.color = 'red';
+           like_heart.style.textShadow = 'text-shadow: 0 0 5px #000;'; 
+           like_heart.style.fontSize = '30px';
+        });
+    </script>
 </body>
 </html>
