@@ -202,4 +202,6 @@ th{
 .work-header{
     width: 100%;
     font-size: 30px;
+    text-align: center;
+    height: 50px;
 }
