@@ -24,7 +24,7 @@ const urlParams = new URLSearchParams(queryString);
 const page_theme = urlParams.get('page-theme');
 
 if(page_theme === 'light'){
-    document.styleSheets[0].href = themes_links[0];
+    document.querySelector("link[href='https://bootswatch.com/5/litera/bootstrap.min.css']").href = themes_links[0];
 }else if(page_theme === 'dark'){
     document.styleSheets[0].href = themes_links[1]
 }
