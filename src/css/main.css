@@ -170,9 +170,11 @@ header:hover {
     position: relative;
 }
 
+/**
 .key_xd{
     
 }
+**/
 
 table, th, td {
     border:2px solid #ffffff;
