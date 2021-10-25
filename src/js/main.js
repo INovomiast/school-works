@@ -37,7 +37,7 @@ if(redir_from === 'gmail' && email === mails[0] && subj === subjects[0] && work_
     console.log('Redirected From Classroom');
     console.log(`Subject: ${subjects[4]}`);
     console.log(`Work ID: ${works_id[2]}`);
-    window.location.href = 'https://inovomiast.github.io/school-works/works/subjects/oriprof/1fx274w1xz4u00';
+    window.location.href = 'https://inovomiast.github.io/school-works/works/subjects/oriprof/1fx274w1xz4u00/?page-theme=light';
 }
 //This Now will Work!
 
