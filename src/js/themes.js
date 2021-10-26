@@ -21,10 +21,10 @@ const themes_links = ['https://bootswatch.com/5/litera/bootstrap.min.css', 'http
 //URL Params
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
-const page_theme = urlParams.get('page-theme');
+const page_theme = urlParams.get('theme');
 
 if(page_theme === 'light'){
     document.querySelector("link[href='https://bootswatch.com/5/litera/bootstrap.min.css']").href = themes_links[0];
 }else if(page_theme === 'dark'){
-    document.styleSheets[0].href = themes_links[1]
+    document.querySelector('link[href= "https://bootswatch.com/5/litera/bootstrap.min.css"]').href = themes_links[1];
 }

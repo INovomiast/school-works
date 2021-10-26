@@ -41,7 +41,8 @@ if(redir_from === 'gmail' && email === mails[0] && subj === subjects[0] && work_
 }
 //This Now will Work!
 
-//Like Function
+/**
+ * //Like Function
 const like_btn = document.getElementById('like_btn');
 const like_btn_2 = document.getElementById('like_btn_2');
 const like_btn_3 = document.getElementById('like_btn_3');
@@ -85,5 +86,14 @@ like_btn_3.addEventListener('click', () => {
         liked_3 = false;
     }
 });
+*/
 
 //Send Personalized Link
+
+
+//Chnage Dark Mode
+const dark_mode_btn = document.querySelector('#dark_mode_btn');
+
+dark_mode_btn.addEventListener('click', () => {
+    console.log('Theme changed: ?theme = light');
+});
