@@ -8,14 +8,14 @@ const work_id = urlParams.get('work_id');
 
 const mails = ["juanfrancisco.medina@salesianos.edu", "joseantonio.perez@salesianos.edu"]
 
-const works_id = ['QImZWQIbc8', '1fx2v541xz43lr', '1fx274w1xz4u00']
+const works_id = ['QImZWQIbc8', '1fx2v541xz43lr', '1fx274w1xz4u00', '1fx212dq1xz4gb2']
 
 //ID Table
 /**
  * QImZWQIbc8 || Lengua || Describir Foto y Pasar Fotos
  * 1fx2v541xz43lr || Filosofia || Resumen y Actividades
  * 1fx274w1xz4u00 || Ori Prof || 5 Emprendedores Famosos
- * 
+ * 1fx212dq1xz4gb2 || Ori Prof || Actitud y Aptitud
  */
 
 
@@ -38,6 +38,11 @@ if(redir_from === 'gmail' && email === mails[0] && subj === subjects[0] && work_
     console.log(`Subject: ${subjects[4]}`);
     console.log(`Work ID: ${works_id[2]}`);
     window.location.href = 'https://inovomiast.github.io/school-works/works/subjects/oriprof/1fx274w1xz4u00/?page-theme=light';
+}else if(redir_from === 'classroom' && subj === subjects[4] && work_id[3]){
+    console.log('Redirected From Classroom');
+    console.log(`Subject: ${subjects[4]}`);
+    console.log(`Work ID: ${work_id[3]}`);
+    window.location.href = 'https://inovomiast.github.io/school-works/works/subjects/oriprof/1fx212dq1xz4gb2';
 }
 //This Now will Work!
 
