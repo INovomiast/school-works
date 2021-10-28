@@ -10,11 +10,66 @@
     <link rel="stylesheet" href="https://bootswatch.com/5/litera/bootstrap.min.css"><!-- For Themes --> <!-- Default Theme: Literia -->
     <!-- Google Icons Outlined -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <!-- ANIMATE.CSS LIB -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="../../../../src/css/main.css">
 </head>
 <body>
-    <header class="btn-danger work-header">
+    <header class="btn-danger work-header animate__animated animate__backInDown">
         <h2 id="header-text">Actitud Y Aptitud</h2>
     </header>
+    
+    <center>
+        <div class="start">
+            <table style="text-align: center;" class="animate__animated animate__zoomInDown contents">
+                <thead>
+                    <th>Pregunta</th>
+                    <th>Respuesta</th>
+                </thead>
+                <tbody>
+                    <td>Diferencia entre Actitud y Aptitud</td>
+                    <td><button class="btn btn-success">VER!</button></td>
+                </tbody>
+                <tbody>
+                    <td>¿Cuales son tus principales Aptitudes?</td>
+                    <td><button class="btn btn-success">VER!</button></td>
+                </tbody>
+                <tbody>
+                    <td>Mi Actitud ante la vida.</td>
+                    <td><button class="btn btn-success">VER!</button></td>
+                </tbody>
+            </table>
+        </div>
+    </center>
+    <br>
+    <hr id="separator">
+    <br>
+    <center>
+        <div class="dev-tools animate__animated" id="dev-tools">
+            <table style="text-align: center; border: 2px solid black;">
+                <thead>
+                    <th>Funcion</th>
+                    <th>Acciones</th>
+                </thead>
+                <tbody>
+                    <td>Generar Link para compartir</td>
+                    <td><button class="btn btn-warning" id="share">Abrir Herramienta</button></td>
+                </tbody>
+                <tbody>
+                    <td>Generar ID para trabajo</td>
+                    <td><button class="btn btn-warning" id="id-gen">Abrir Herramienta</button></td>
+                </tbody>
+                <tbody>
+                    <td>Abrir consola Personalizada</td>
+                    <td><button class="btn btn-warning" id="console">Abrir Herramienta</button></td>
+                </tbody>
+            </table>
+        </div>
+    
+    </center>
+        
+    <script src="../../../../src/js/themes.js"></script>
+    <script src="../../../../src/js/dev.js"></script>
 </body>
 </html>

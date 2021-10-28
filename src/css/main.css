@@ -258,3 +258,26 @@ th{
     opacity: 90%;
     cursor: pointer;
 }
+
+/*Aptitud y Actitud*/
+.start{
+    margin-top: 50px;
+}
+
+.contents{
+    animation-duration: 2.5s;
+}
+
+.work-header{
+    animation-duration: 1s;
+}
+
+.dev-tools{
+    display: none;
+    animation-duration: 1.5s;
+    overflow-x: hidden;
+}
+
+#separator{
+    display: none;
+}
