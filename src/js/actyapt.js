@@ -80,3 +80,8 @@ bBtn3.addEventListener('click', () => {
     block2.style.display = 'none';
     block3.style.display = 'none';
 });
+
+//So there was an failure
+/**
+ * bBtn var is not updated
+ */
