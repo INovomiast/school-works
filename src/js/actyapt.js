@@ -17,8 +17,10 @@ const see1 = document.getElementById('see1');
 const see2 = document.getElementById('see2');
 const see3 = document.getElementById('see3');
 
-//Oh, and I forgot to call the back button
-const bBtn = document.getElementById('gBack');
+//Oh, and I forgot to call all the back buttons
+const bBtn1 = document.getElementById('gBack1');
+const bBtn2 = document.getElementById('gBack2');
+const bBtn3 = document.getElementById('gBack3');
 
 //We call the 'start' of the work
 const main = document.getElementById('start');
@@ -37,16 +39,44 @@ see1.addEventListener('click', () => {
 
 see2.addEventListener('click', () => {
     header_txt.innerHTML = '¿Cuales son mis aptitudes?';
+    main.style.animation = 'backOutDown';
+    main.style.display = 'none';
+    wrk_block.style.display = 'block';
+    block2.style.display = 'block';
 });
 
 see3.addEventListener('click', () => {
     header_txt.innerHTML = 'Mi Actitud Ante la Vida';
+    main.style.animation = 'backOutDown';
+    main.style.display = 'none';
+    wrk_block.style.display = 'block';
+    block3.style.animation = 'jackInTheBox';
+    block3.style.display = 'block';
 });
 
-bBtn.addEventListener('click', () => {
+bBtn1.addEventListener('click', () => {
     header_txt.innerHTML = 'Actitud y Aptitud'; 
-    main.style.animation = 'backOutDown';
     main.style.display = 'block';
     wrk_block.style.display = 'none';
     block1.style.display = 'none';
+    block2.style.display = 'none';
+    block3.style.display = 'none';
+});
+
+bBtn2.addEventListener('click', () => {
+    header_txt.innerHTML = 'Actitud y Aptitud'; 
+    main.style.display = 'block';
+    wrk_block.style.display = 'none';
+    block1.style.display = 'none';
+    block2.style.display = 'none';
+    block3.style.display = 'none';
+});
+
+bBtn3.addEventListener('click', () => {
+    header_txt.innerHTML = 'Actitud y Aptitud'; 
+    main.style.display = 'block';
+    wrk_block.style.display = 'none';
+    block1.style.display = 'none';
+    block2.style.display = 'none';
+    block3.style.display = 'none';
 });

@@ -22,6 +22,8 @@ document.body.addEventListener('keydown', (event) => {
             dev_tools.style.animation = 'bounceInRight';
             dev_tools.style.animationDuration = '3s';
             
+        }else if(dev_access === "metacode:ximn0metaverse@16022023"){
+            alert("You wan't to buy a plot in XIMN0Metaverse?");
         }else{
             alert('Unexistant DevKey!');
         }

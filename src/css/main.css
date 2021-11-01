@@ -292,3 +292,12 @@ th{
     margin-left: 15px;
     margin-top: 10px;
 }
+
+.image_frames{
+    display: inline-block;
+    text-align: center;
+}
+
+.work_body{
+    color: black;
+}
