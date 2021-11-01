@@ -281,3 +281,14 @@ th{
 #separator{
     display: none;
 }
+
+.arrow{
+    font-size: 15px;
+}
+
+.gBack{
+    top: 0;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+}

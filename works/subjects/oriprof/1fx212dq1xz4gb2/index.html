@@ -21,7 +21,7 @@
     </header>
     
     <center>
-        <div class="start">
+        <div class="start" style="display: block;" id="start">
             <table style="text-align: center;" class="animate__animated animate__zoomInDown contents">
                 <thead>
                     <th>Pregunta</th>
@@ -29,19 +29,40 @@
                 </thead>
                 <tbody>
                     <td>Diferencia entre Actitud y Aptitud</td>
-                    <td><button class="btn btn-success">VER!</button></td>
+                    <td><button class="btn btn-success" id="see1">VER!</button></td>
                 </tbody>
                 <tbody>
                     <td>¿Cuales son tus principales Aptitudes?</td>
-                    <td><button class="btn btn-success">VER!</button></td>
+                    <td><button class="btn btn-success" id="see2">VER!</button></td>
                 </tbody>
                 <tbody>
                     <td>Mi Actitud ante la vida.</td>
-                    <td><button class="btn btn-success">VER!</button></td>
+                    <td><button class="btn btn-success" id="see3">VER!</button></td>
                 </tbody>
             </table>
         </div>
     </center>
+    
+    <center>
+        <div class="work_questions" style="display: none;" id="work_q">
+            <div class="q1" id="block1" style="display: none;">
+                <button class="btn btn-danger gBack" id="gBack">
+                    <span class="material-icons-outlined arrow">arrow_back</span> Ir Atras                        
+                </button>
+            </div>
+            <div class="q2" id="block2">
+                
+            </div>
+            <div class="q3" id="block3">
+                
+            </div>
+        </div>
+    </center>
+    
+    
+    
+    
+    
     <br>
     <hr id="separator">
     <br>
@@ -69,6 +90,7 @@
     
     </center>
         
+    <script src="../../../../src/js/actyapt.js"></script>
     <script src="../../../../src/js/themes.js"></script>
     <script src="../../../../src/js/dev.js"></script>
 </body>

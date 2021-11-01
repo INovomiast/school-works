@@ -35,12 +35,12 @@ const link_display = document.getElementById('');
 
 const links = ['', '', ''];
 
-generate_link_btn.addEventListener('click', () => {
-   if (window.location.href === ""){
-       
-   }else if(window.location.href === ""){
-       
-   }else if(window.location.href === ""){
-       
-   }
-});
+//generate_link_btn.addEventListener('click', () => {
+//   if (window.location.href === ""){
+//       
+//   }else if(window.location.href === ""){
+//       
+//   }else if(window.location.href === ""){
+//       
+//   }
+//});
