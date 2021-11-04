@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap');
+@import './anim.css';
+
 * {
     margin: 0;
     padding: 0;
@@ -300,4 +302,39 @@ th{
 
 .work_body{
     color: black;
+}
+
+/*La Importancia del Espiritu Emprendedor*/
+
+.card-body{
+    display: none;
+    transition: display 1s;
+}
+
+.card-header{
+    transition: background-color 0.5s;
+}
+
+.card-header:hover{
+    cursor: pointer;
+    user-select: none;
+    background-color: cornflowerblue;
+}
+
+.acc_2:hover{
+    cursor: pointer;
+    user-select: none;
+    background-color: rgb(0, 148, 0);
+}
+
+.acc_3:hover{
+    cursor: pointer;
+    user-select: none;
+    background-color: rgb(231, 0, 0);
+}
+
+.acc_4:hover{
+    cursor: pointer;
+    user-select: none;
+    background-color: rgb(0, 174, 255);
 }
