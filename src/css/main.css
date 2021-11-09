@@ -338,3 +338,396 @@ th{
     user-select: none;
     background-color: rgb(0, 174, 255);
 }
+
+/*Los Tipos de Textos*/
+
+
+.poema1{
+    margin: auto 0;
+    background-color: royalblue;
+    width: 50%;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.poema1 p{
+    background-color: #d1d1d1;
+    color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 0.5s;
+}
+
+.poema1 p:hover{
+    opacity: 80%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.poema2{
+    margin: auto 0;
+    background-color: rgb(8, 211, 86);
+    width: 50%;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.poema2 p{
+    background-color: #d1d1d1;
+    color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 0.5s;
+}
+
+.poema2 p:hover{
+    opacity: 80%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.poema3{
+    margin: auto 0;
+    background-color: rgb(211, 49, 8);
+    width: 50%;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.poema3 p{
+    background-color: #d1d1d1;
+    color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 0.5s;
+}
+
+.poema3 p:hover{
+    opacity: 80%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.poema4{
+    margin: auto 0;
+    background-color: rgb(211, 8, 8);
+    width: 50%;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.poema4 p{
+    background-color: #d1d1d1;
+    color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 0.5s;
+}
+
+.poema4 p:hover{
+    opacity: 80%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.poema5{
+    margin: auto 0;
+    background-color: rgb(0, 68, 255);
+    width: 50%;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.poema5 p{
+    background-color: #d1d1d1;
+    color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 0.5s;
+}
+
+.poema5 p:hover{
+    opacity: 80%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.poema6{
+    margin: auto 0;
+    background-color: rgb(145, 61, 161);
+    width: 50%;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.poema6 p{
+    background-color: #d1d1d1;
+    color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 0.5s;
+}
+
+.poema6 p:hover{
+    opacity: 80%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.poema7{
+    margin: auto 0;
+    background-color: rgb(226, 34, 108);
+    width: 50%;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.poema7 p{
+    background-color: #d1d1d1;
+    color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 0.5s;
+}
+
+.poema7 p:hover{
+    opacity: 80%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.poema8{
+    margin: auto 0;
+    background-color: rgb(111, 226, 34);
+    width: 50%;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.poema8 p{
+    background-color: #d1d1d1;
+    color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 0.5s;
+}
+
+.poema8 p:hover{
+    opacity: 80%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.poema9{
+    margin: auto 0;
+    background-color: rgb(0, 140, 255);
+    width: 50%;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.poema9 p{
+    background-color: #d1d1d1;
+    color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 0.5s;
+}
+
+.poema9 p:hover{
+    opacity: 80%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.poema10{
+    margin: auto 0;
+    background-color: rgb(238, 125, 144);
+    width: 50%;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.poema10 p{
+    background-color: #d1d1d1;
+    color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 0.5s;
+}
+
+.poema10 p:hover{
+    opacity: 80%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.poema11{
+    margin: auto 0;
+    background-color: rgb(255, 208, 0);
+    width: 50%;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.poema11 p{
+    background-color: #d1d1d1;
+    color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 0.5s;
+}
+
+.poema11 p:hover{
+    opacity: 80%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.poema12{
+    margin: auto 0;
+    background-color: rgb(255, 0, 85);
+    width: 50%;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.poema12 p{
+    background-color: #d1d1d1;
+    color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 0.5s;
+}
+
+.poema12 p:hover{
+    opacity: 80%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.poema13{
+    margin: auto 0;
+    background-color: rgb(255, 94, 0);
+    width: 50%;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.poema13 p{
+    background-color: #d1d1d1;
+    color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 0.5s;
+}
+
+.poema13 p:hover{
+    opacity: 80%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.poema14{
+    margin: auto 0;
+    background-color: rgb(2, 114, 158);
+    width: 50%;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.poema14 p{
+    background-color: #d1d1d1;
+    color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 0.5s;
+}
+
+.poema14 p:hover{
+    opacity: 80%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.poema15{
+    margin: auto 0;
+    background-color: rgb(1, 255, 86);
+    width: 50%;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.poema15 p{
+    background-color: #d1d1d1;
+    color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 0.5s;
+}
+
+.poema15 p:hover{
+    opacity: 80%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+.poema16{
+    margin: auto 0;
+    background-color: rgb(2, 158, 124);
+    width: 50%;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.poema16 p{
+    background-color: #d1d1d1;
+    color: black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all 0.5s;
+}
+
+.poema16 p:hover{
+    opacity: 80%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.work-header{
+    z-index: 10000;
+}
