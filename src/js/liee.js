@@ -5,10 +5,15 @@ const clickable_header_2 = document.getElementById('card-accordeon-header-2');
 const accordeon_body_2 = document.getElementById('card-accordeon-body-2');
 const clickable_header_3 = document.getElementById('card-accordeon-header-3');
 const accordeon_body_3 = document.getElementById('card-accordeon-body-3');
+const clickable_header_4 = document.getElementById('card-accordeon-header-4');
+const accordeon_body_4 = document.getElementById('card-accordeon-body-4');
+
+
 
 let oppened = false;
 let oppened_2 = false;
 let oppened_3 = false;
+let oppened_4 = false;
 
 clickable_header.addEventListener('click', () => {
    if(oppened === false){
@@ -49,5 +54,19 @@ clickable_header_3.addEventListener('click', () => {
              accordeon_body_3.style.display = 'none';
             }, 500)
             oppened_3 = false;
+    }
+});
+
+clickable_header_4.addEventListener('click', () => {
+    if(oppened_4 === false){
+        accordeon_body_4.style.display = 'block';
+        accordeon_body_4.style.animation = 'backInUp 0.5s ease-in';
+        oppened_4 = true;
+    }else if(oppened_4 === true){
+            accordeon_body_4.style.animation = 'backOutLeft 0.5s ease-out';
+            setTimeout(()=>{
+             accordeon_body_4.style.display = 'none';
+            }, 500)
+            oppened_4 = false;
     }
 });
