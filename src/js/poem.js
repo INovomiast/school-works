@@ -38,6 +38,13 @@ const ans6 = document.getElementById('qans-6');
 //We call the URL Parameters
 const text = urlParams.get('text');
 
+//We call the... go back btn
+const gback = document.getElementById('gBackBtn');
+
+gback.addEventListener('click', () => {
+   redir_to('./index.html') 
+});
+
 
 //On Scroll appear gback up btn
 const gupb = document.getElementById('gUpBtn');
@@ -165,19 +172,29 @@ if(text === '1'){
         Este texto pertenece al genero de la Lirica.
     `;
     ans2.innerHTML = `
-    Pertenece al Romanticismo y fue compuesta en .
+    Pertenece al Romanticismo y fue compuesta en 1885.
     `;
     ans3.innerHTML = `
-        
+        Este texto me transmite el hecho de que becquer encontro el amor de forma repentina <br>
+        y este compara como si fuese una estructura con un huracan.
     `;
     ans4.innerHTML = `
-        
+        El tema de este texto es el amor repentino y este se representa con una torre y un huracan.
     `;
     ans5.innerHTML = `
-        
+        Tiene: <br>
+        <ul>
+            <li>Tiene 2 Estrofas.</li>
+            <li>Cada una con 4 versos.</li>
+            <li>Con rima Asonante.</li>
+        </ul>
+        Silabas: <br>
+        12 - 10 - 14 - 4; <br>
+        14 - 13 - 14 - 4; 
     `;
     ans6.innerHTML = `
-        
+        Gustavo Adolfo Becquer se convirtio en un autor famoso despúes de morir... sus amigos <br>
+        publicaron todas sus rimas y obras y se convirtio en lo que es ahora.
     `;
 }else if(text === '3'){
     wrk_body.style.display = 'none';
@@ -186,22 +203,31 @@ if(text === '1'){
     
     //All Question Answares
     ans1.innerHTML = `
-        
+        El texto pertenece al genero de la Lirica.
     `;
     ans2.innerHTML = `
-        
+        Pertenece al Romanticismo y su fecha de composicion fue en 1884.
     `;
     ans3.innerHTML = `
-        
+        Este poema, personalmente me transmite... soledad... como si Rosalia de Castro
+        se sintiese en soledad por alguien... eso es lo que me transmite.
     `;
     ans4.innerHTML = `
-        
+        Habla sobre la perdida tragica y la soledad que conlleva esta...
     `;
     ans5.innerHTML = `
-        
+    Tiene: <br>
+    <ul>
+        <li>Tiene 1 Estrofas.</li>
+        <li>Cada una con 4 versos.</li>
+        <li>Con rima Consonante.</li>
+    </ul>
+    Silabas: <br>
+    12 - 13 - 14 - 15; <br>
     `;
     ans6.innerHTML = `
-        
+        Rosalia de Castro era una escritora Gallega la cual escribia sus libros en Gallego y
+        Castellano.
     `;
 }else if(text === '4'){
     wrk_body.style.display = 'none';
@@ -210,22 +236,33 @@ if(text === '1'){
     
     //All Question Answares
     ans1.innerHTML = `
-        
+        El texto pertenece al genero de la Lirica.
     `;
     ans2.innerHTML = `
-        
+        Pertenece al Romanticismo y su fecha de composicion fue en 1905.
     `;
     ans3.innerHTML = `
-        
+       En esta obra, encuentro interesante, que se hable sobre como el autor quiere
+       besar a una mujer y lo que haria por ese beso. 
     `;
     ans4.innerHTML = `
-        
+        Habla sobre un amor idealizado... aunque no lo retrataria así... porque
+        este Fragmento, pues... para que me voy a inventar nada... si, habla sobre
+        un amor idealizado.    
     `;
     ans5.innerHTML = `
-        
-    `;
+    Tiene: <br>
+    <ul>
+        <li>Tiene 2 Estrofas.</li>
+        <li>Cada una con 4 versos.</li>
+        <li>Con rima Consonante.</li>
+        </ul>
+        Silabas: <br>
+        9 - 7 - 8 - 9; <br>
+        7 - 8 - 7 - 10; 
+        `;
     ans6.innerHTML = `
-        
+        José Zorrilla y Moral fue un poeta y dramaturgo español, autor del drama romántico Don Juan Tenorio.
     `;
 }else if(text === '5'){
     wrk_body.style.display = 'none';
@@ -234,22 +271,29 @@ if(text === '1'){
     
     //All Question Answares
     ans1.innerHTML = `
-        
+        El texto pertenece al genero de la Lirica.
     `;
     ans2.innerHTML = `
-        
+        Pertenece al Romanticismo y fue compuesta en el año 1876.
     `;
     ans3.innerHTML = `
-        
+        Esta obra, parece tener... no un caracter amoroso, sino... social, en el
+        cual representa como son las noches de un pastor.
     `;
     ans4.innerHTML = `
-        
+        Eso, lo dicho anteriormente, tiene un caracter social...  
     `;
     ans5.innerHTML = `
-        
+        <li>Tiene 2 Estrofas.</li>
+        <li>Cada una con 4 versos.</li>
+        <li>Con rima Asonante.</li>
+        </ul>
+        Silabas: <br>
+        8 - 9 - 9 - 8; <br>
+        9 - 10 - 8 - 9; 
     `;
     ans6.innerHTML = `
-        
+    Espronceda nació en Almendralejo (provincia de Badajoz, Extremadura) el 25 de marzo de 1808. El nombre completo que le dieron al bautizarlo en ese mismo día fue «José Ignacio Javier Oriol Encarnación de Espronceda y Delgado».
     `;
 }else if(text === '6'){
     wrk_body.style.display = 'none';
@@ -258,22 +302,29 @@ if(text === '1'){
     
     //All Question Answares
     ans1.innerHTML = `
-        
+        El texto pertenece al genero de la Lirica.
     `;
     ans2.innerHTML = `
-        
+        Perteneciente al Romanticismo y Compuesto en el año 1876.
     `;
     ans3.innerHTML = `
-        
+        Se da el tema de un amor, pero no hacia una persona, sino a la Patria... y de
+        como este se siente al estar excluido de ella.
     `;
     ans4.innerHTML = `
-        
+        Es un amor hacia la patria, como antes he mencionado...
     `;
     ans5.innerHTML = `
-        
+        <li>Tiene 2 Estrofas.</li>
+        <li>Cada una con 4 versos.</li>
+        <li>Con rima Asonante.</li>
+        </ul>
+        Silabas: <br>
+        11 - 9 - 11 - 8; <br>
+        8 - 7 - 14 - 10;   
     `;
     ans6.innerHTML = `
-        
+        Su obra más famosa es Poesias, en donde se recompilan un monton de sus poesias.
     `;
 }else if(text === '7'){
     wrk_body.style.display = 'none';
@@ -282,22 +333,33 @@ if(text === '1'){
     
     //All Question Answares
     ans1.innerHTML = `
-        
+        El texto pertenece al genero de la Lirica.
     `;
     ans2.innerHTML = `
-        
+        Perteneciente al Romanticismo y Compuesto en el año (No lo he encontrado).
     `;
     ans3.innerHTML = `
-        
+        Este poema habla sobre las diferentes estaciones del año, y con foco 
+        principal en la primavera.
     `;
     ans4.innerHTML = `
-        
+        Habla sobre como es el amor dependiendo de las estaciones del año.
     `;
     ans5.innerHTML = `
-        
+        <li>Tiene 5 Estrofas.</li>
+        <li>Cada una con 5 -  versos.</li>
+        <li>Con rima Consoante.</li>
+        </ul>
+        Silabas: <br>
+        13 - 6 - 13 - 13 - 10; <br>
+        13 - 12 - 12 - 13; <br>
+        12 - 8 - 13 - 8; <br>
+        13 - 6 - 13 - 12 - 12 - 6; <br>
+        13 - 13 - 11 - 13 - 14 - 12; 
     `;
     ans6.innerHTML = `
-        
+        Rosalia de Castro sufrio mucho en su vida, pero el 
+        suceso que más le marco fue la muerte de su hija.
     `;
 }else if(text === '8'){
     wrk_body.style.display = 'none';
@@ -306,22 +368,29 @@ if(text === '1'){
     
     //All Question Answares
     ans1.innerHTML = `
-        
+        El texto pertenece al genero de la Lirica.
     `;
     ans2.innerHTML = `
-        
+        Perteneciente al Romanticismo y Compuesto en el año (No lo he encontrado).
     `;
     ans3.innerHTML = `
-        
+        Me expresa el hecho de que el pensamiento nos hace sufrir muchas veces
+        innecesareamente.
     `;
     ans4.innerHTML = `
-        
+        Habla sobre el pensamiento que tiene la autora hacia un suceso que le
+        pone depresiva.
     `;
     ans5.innerHTML = `
-        
+        <li>Tiene 1 Estrofas.</li>
+        <li>Cada una con 4 versos.</li>
+        <li>Con rima Asonante.</li>
+        </ul>
+        Silabas: <br>
+        12 - 9 - 13 - 7;   
     `;
     ans6.innerHTML = `
-        
+        Ya no se que ponerte de esta tía...
     `;
 }else if(text === '9'){
     wrk_body.style.display = 'none';
@@ -330,22 +399,27 @@ if(text === '1'){
     
     //All Question Answares
     ans1.innerHTML = `
-        
+        El texto pertenece al genero de la Lirica.
     `;
     ans2.innerHTML = `
-        
+        Perteneciente al Romanticismo y Compuesto en el año 1840 al 1842.
     `;
     ans3.innerHTML = `
-        
+    Expresa un sentimiento de amor idealizado hacia otra persona.
     `;
     ans4.innerHTML = `
-        
+    Expresa un sentimiento de amor idealizado hacia otra persona. 
     `;
     ans5.innerHTML = `
-        
+        <li>Tiene 1 Estrofas.</li>
+        <li>Cada una con 8 versos.</li>
+        <li>Con rima Asonante.</li>
+        </ul>
+        Silabas: <br>
+        12 - 13 - 12 - 14 - 12 - 12 - 11 - 14; 
     `;
     ans6.innerHTML = `
-        
+        YO NO SE QUE PONER!
     `;
 }else if(text === '10'){
     wrk_body.style.display = 'none';
@@ -354,22 +428,23 @@ if(text === '1'){
     
     //All Question Answares
     ans1.innerHTML = `
-        
+        Este texto pertenece al Genero Teatral.
     `;
     ans2.innerHTML = `
-        
+        Perteneciente al Romanticismo y Compuesto en el año 1833.
     `;
     ans3.innerHTML = `
-        
+        Esta obra de teatro habla sobre como la ciencia a arruinado 
+        a la poesia.
     `;
     ans4.innerHTML = `
-        
+        Obra destinada a la critica social y cientifica.
     `;
     ans5.innerHTML = `
-        
+        ES UNA OBRA DE TEATRO.
     `;
     ans6.innerHTML = `
-        
+        Mariano Jose de Larra fue un Politico, Periodista y Escritor!.
     `;
 }else if(text === '11'){
     wrk_body.style.display = 'none';
@@ -378,19 +453,28 @@ if(text === '1'){
     
     //All Question Answares
     ans1.innerHTML = `
-        
+        El texto pertenece al genero de la Lirica.
     `;
     ans2.innerHTML = `
-        
+        Perteneciente al Romanticismo y Compuesto en el año (No lo he encontrado).
     `;
     ans3.innerHTML = `
-        
+        En mi opinion, el poema transmite mucha nostalgia y pena porque echa de menos a una
+        persona, además de desesperación, aunque cuando recuerda lo feliz que fue se alegra.
     `;
     ans4.innerHTML = `
-        
+        A ver, como podemos ver, para el que no sepa, que Rosalia de Castro escribe esto
+        por la perdida de su hija, ya que tuvo su epoca depresiva por esa perdida. Es un
+        poema de amor, hacia una persona que perdio basicamente.
     `;
     ans5.innerHTML = `
-        
+        <li>Tiene 3 Estrofas.</li>
+        <li>Cada una con 5, 6 y 4  versos.</li>
+        <li>Con rima Asonante.</li>
+        </ul>
+        Silabas: <br>
+        11 - 9 - 11 - 8; <br>
+        8 - 7 - 14 - 10; 
     `;
     ans6.innerHTML = `
         
