@@ -26,6 +26,15 @@ const wrk_body = document.getElementById('work-body');
 //We call now the Work Header... this will display the same Header on the texts
 const work_header = document.getElementById('header-text')
 
+//Now we call the questions and answares... bcs we are going to edit it with js
+const wrk_qstans = document.getElementById('');
+const ans1 = document.getElementById('');
+const ans2 = document.getElementById('');
+const ans3 = document.getElementById('');
+const ans4 = document.getElementById('');
+const ans5 = document.getElementById('');
+const ans6 = document.getElementById('');
+
 //We call the URL Parameters
 const text = urlParams.get('text');
 
@@ -104,49 +113,65 @@ function redir_to(link){
 if(text === '1'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'Rima XIII - Gustavo Adolfo Becquer';
+    wrk_qstans.style.display = 'block';
 }else if(text === '2'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'Rima XLI - Gustavo Adolfo Becquer';
+    wrk_qstans.style.display = 'block';
 }else if(text === '3'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'Un manso río, una vereda estrecha - Rosalia de Castro';
+    wrk_qstans.style.display = 'block';
 }else if(text === '4'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'Dueña de la Negra Toca - Jose Zorrilla';
+    wrk_qstans.style.display = 'block';
 }else if(text === '5'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'A la noche - Jose de Espronceda';
+    wrk_qstans.style.display = 'block';
 }else if(text === '6'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'A la patria - Jose de Espronceda';
+    wrk_qstans.style.display = 'block';
 }else if(text === '7'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'Estaciones - Rosalia de Castro';
+    wrk_qstans.style.display = 'block';
 }else if(text === '8'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'Un Recuerdo - Rosalia de Castro';
+    wrk_qstans.style.display = 'block';
 }else if(text === '9'){
     wrk_body.style.display = 'none';
-    work_header.innerHTML = 'El diablo mundo - Jose de Espronceda   ';
+    work_header.innerHTML = 'El diablo mundo - Jose de Espronceda';
+    wrk_qstans.style.display = 'block';
 }else if(text === '10'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'Don Timoteo o el literato - Marino José de Larra';
+    wrk_qstans.style.display = 'block';
 }else if(text === '11'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'Hora tras Hora, Día tras Día - Rosalia de Castro';
+    wrk_qstans.style.display = 'block';
 }else if(text === '12'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'Don Juan Tenorio - Jose Zorrilla';
+    wrk_qstans.style.display = 'block';
 }else if(text === '13'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'Don Álvaro o la fuerza del sino - Duque de Rivas';
+    wrk_qstans.style.display = 'block';
 }else if(text === '14'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'A la muerte de... - Jose Zorrilla';
+    wrk_qstans.style.display = 'block';
 }else if(text === '15'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'Don Álvaro o la fuerza del sino - Jose Zorrilla (Fragmento 2)';
+    wrk_qstans.style.display = 'block';
 }else if(text === '16'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'Literatura - Mariano Jose de Larra';
+    wrk_qstans.style.display = 'block';
 }
