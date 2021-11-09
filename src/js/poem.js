@@ -27,16 +27,28 @@ const wrk_body = document.getElementById('work-body');
 const work_header = document.getElementById('header-text')
 
 //Now we call the questions and answares... bcs we are going to edit it with js
-const wrk_qstans = document.getElementById('');
-const ans1 = document.getElementById('');
-const ans2 = document.getElementById('');
-const ans3 = document.getElementById('');
-const ans4 = document.getElementById('');
-const ans5 = document.getElementById('');
-const ans6 = document.getElementById('');
+const wrk_qstans = document.getElementById('wrk_ans');
+const ans1 = document.getElementById('qans-1');
+const ans2 = document.getElementById('qans-2');
+const ans3 = document.getElementById('qans-3');
+const ans4 = document.getElementById('qans-4');
+const ans5 = document.getElementById('qans-5');
+const ans6 = document.getElementById('qans-6');
 
 //We call the URL Parameters
 const text = urlParams.get('text');
+
+
+//On Scroll appear gback up btn
+const gupb = document.getElementById('gUpBtn');
+
+document.onscroll = () => {
+    gupb.style.display = 'block';
+}
+
+gupb.onclick = () => {
+    gupb.style.display = 'none';
+}
 
 //Now we create a Click event on all the poems
 poem1.addEventListener('click', () => {
@@ -114,64 +126,393 @@ if(text === '1'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'Rima XIII - Gustavo Adolfo Becquer';
     wrk_qstans.style.display = 'block';
+    
+    //All Question Answares
+    ans1.innerHTML = `
+        Este texto pertenece al genero de la Lirica.
+    `;
+    ans2.innerHTML = `
+        Pertenece al Romanticismo y fue compuesta en 1871.
+    `;
+    ans3.innerHTML = `
+        El tema de este texto es el amor y compara este con la naturaleza.
+    `;
+    ans4.innerHTML = `
+        Aqui Becquer habla sobre un amor idealizado así comparandola con la naturaleza.
+    `;
+    ans5.innerHTML = `
+        Tiene: <br>
+        <ul>
+            <li>Tiene 2 Estrofas.</li>
+            <li>Cada una con 4 versos.</li>
+            <li>Con rima Asonante.</li>
+        </ul>
+        Silabas: <br>
+        11 - 10 - 11 - 7; <br>
+        11 - 11 - 11 - 7;   
+    `;
+    ans6.innerHTML = `
+        Gustavo Adolfo Becquer se convirtio en un autor famoso despúes de morir... sus amigos <br>
+        publicaron todas sus rimas y obras y se convirtio en lo que es ahora.
+    `;
 }else if(text === '2'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'Rima XLI - Gustavo Adolfo Becquer';
     wrk_qstans.style.display = 'block';
+
+    //All Question Answares
+    ans1.innerHTML = `
+        Este texto pertenece al genero de la Lirica.
+    `;
+    ans2.innerHTML = `
+    Pertenece al Romanticismo y fue compuesta en .
+    `;
+    ans3.innerHTML = `
+        
+    `;
+    ans4.innerHTML = `
+        
+    `;
+    ans5.innerHTML = `
+        
+    `;
+    ans6.innerHTML = `
+        
+    `;
 }else if(text === '3'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'Un manso río, una vereda estrecha - Rosalia de Castro';
     wrk_qstans.style.display = 'block';
+    
+    //All Question Answares
+    ans1.innerHTML = `
+        
+    `;
+    ans2.innerHTML = `
+        
+    `;
+    ans3.innerHTML = `
+        
+    `;
+    ans4.innerHTML = `
+        
+    `;
+    ans5.innerHTML = `
+        
+    `;
+    ans6.innerHTML = `
+        
+    `;
 }else if(text === '4'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'Dueña de la Negra Toca - Jose Zorrilla';
     wrk_qstans.style.display = 'block';
+    
+    //All Question Answares
+    ans1.innerHTML = `
+        
+    `;
+    ans2.innerHTML = `
+        
+    `;
+    ans3.innerHTML = `
+        
+    `;
+    ans4.innerHTML = `
+        
+    `;
+    ans5.innerHTML = `
+        
+    `;
+    ans6.innerHTML = `
+        
+    `;
 }else if(text === '5'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'A la noche - Jose de Espronceda';
     wrk_qstans.style.display = 'block';
+    
+    //All Question Answares
+    ans1.innerHTML = `
+        
+    `;
+    ans2.innerHTML = `
+        
+    `;
+    ans3.innerHTML = `
+        
+    `;
+    ans4.innerHTML = `
+        
+    `;
+    ans5.innerHTML = `
+        
+    `;
+    ans6.innerHTML = `
+        
+    `;
 }else if(text === '6'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'A la patria - Jose de Espronceda';
     wrk_qstans.style.display = 'block';
+    
+    //All Question Answares
+    ans1.innerHTML = `
+        
+    `;
+    ans2.innerHTML = `
+        
+    `;
+    ans3.innerHTML = `
+        
+    `;
+    ans4.innerHTML = `
+        
+    `;
+    ans5.innerHTML = `
+        
+    `;
+    ans6.innerHTML = `
+        
+    `;
 }else if(text === '7'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'Estaciones - Rosalia de Castro';
     wrk_qstans.style.display = 'block';
+    
+    //All Question Answares
+    ans1.innerHTML = `
+        
+    `;
+    ans2.innerHTML = `
+        
+    `;
+    ans3.innerHTML = `
+        
+    `;
+    ans4.innerHTML = `
+        
+    `;
+    ans5.innerHTML = `
+        
+    `;
+    ans6.innerHTML = `
+        
+    `;
 }else if(text === '8'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'Un Recuerdo - Rosalia de Castro';
     wrk_qstans.style.display = 'block';
+    
+    //All Question Answares
+    ans1.innerHTML = `
+        
+    `;
+    ans2.innerHTML = `
+        
+    `;
+    ans3.innerHTML = `
+        
+    `;
+    ans4.innerHTML = `
+        
+    `;
+    ans5.innerHTML = `
+        
+    `;
+    ans6.innerHTML = `
+        
+    `;
 }else if(text === '9'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'El diablo mundo - Jose de Espronceda';
     wrk_qstans.style.display = 'block';
+    
+    //All Question Answares
+    ans1.innerHTML = `
+        
+    `;
+    ans2.innerHTML = `
+        
+    `;
+    ans3.innerHTML = `
+        
+    `;
+    ans4.innerHTML = `
+        
+    `;
+    ans5.innerHTML = `
+        
+    `;
+    ans6.innerHTML = `
+        
+    `;
 }else if(text === '10'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'Don Timoteo o el literato - Marino José de Larra';
     wrk_qstans.style.display = 'block';
+    
+    //All Question Answares
+    ans1.innerHTML = `
+        
+    `;
+    ans2.innerHTML = `
+        
+    `;
+    ans3.innerHTML = `
+        
+    `;
+    ans4.innerHTML = `
+        
+    `;
+    ans5.innerHTML = `
+        
+    `;
+    ans6.innerHTML = `
+        
+    `;
 }else if(text === '11'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'Hora tras Hora, Día tras Día - Rosalia de Castro';
     wrk_qstans.style.display = 'block';
+    
+    //All Question Answares
+    ans1.innerHTML = `
+        
+    `;
+    ans2.innerHTML = `
+        
+    `;
+    ans3.innerHTML = `
+        
+    `;
+    ans4.innerHTML = `
+        
+    `;
+    ans5.innerHTML = `
+        
+    `;
+    ans6.innerHTML = `
+        
+    `;
 }else if(text === '12'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'Don Juan Tenorio - Jose Zorrilla';
     wrk_qstans.style.display = 'block';
+    
+    //All Question Answares
+    ans1.innerHTML = `
+        
+    `;
+    ans2.innerHTML = `
+        
+    `;
+    ans3.innerHTML = `
+        
+    `;
+    ans4.innerHTML = `
+        
+    `;
+    ans5.innerHTML = `
+        
+    `;
+    ans6.innerHTML = `
+        
+    `;
 }else if(text === '13'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'Don Álvaro o la fuerza del sino - Duque de Rivas';
     wrk_qstans.style.display = 'block';
+    
+    //All Question Answares
+    ans1.innerHTML = `
+        
+    `;
+    ans2.innerHTML = `
+        
+    `;
+    ans3.innerHTML = `
+        
+    `;
+    ans4.innerHTML = `
+        
+    `;
+    ans5.innerHTML = `
+        
+    `;
+    ans6.innerHTML = `
+        
+    `;
 }else if(text === '14'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'A la muerte de... - Jose Zorrilla';
     wrk_qstans.style.display = 'block';
+    
+    //All Question Answares
+    ans1.innerHTML = `
+        
+    `;
+    ans2.innerHTML = `
+        
+    `;
+    ans3.innerHTML = `
+        
+    `;
+    ans4.innerHTML = `
+        
+    `;
+    ans5.innerHTML = `
+        
+    `;
+    ans6.innerHTML = `
+        
+    `;
 }else if(text === '15'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'Don Álvaro o la fuerza del sino - Jose Zorrilla (Fragmento 2)';
     wrk_qstans.style.display = 'block';
+    
+    //All Question Answares
+    ans1.innerHTML = `
+        
+    `;
+    ans2.innerHTML = `
+        
+    `;
+    ans3.innerHTML = `
+        
+    `;
+    ans4.innerHTML = `
+        
+    `;
+    ans5.innerHTML = `
+        
+    `;
+    ans6.innerHTML = `
+        
+    `;
 }else if(text === '16'){
     wrk_body.style.display = 'none';
     work_header.innerHTML = 'Literatura - Mariano Jose de Larra';
     wrk_qstans.style.display = 'block';
+    
+    //All Question Answares
+    ans1.innerHTML = `
+        
+    `;
+    ans2.innerHTML = `
+        
+    `;
+    ans3.innerHTML = `
+        
+    `;
+    ans4.innerHTML = `
+        
+    `;
+    ans5.innerHTML = `
+        
+    `;
+    ans6.innerHTML = `
+        
+    `;
 }

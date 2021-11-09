@@ -731,3 +731,20 @@ th{
 .work-header{
     z-index: 10000;
 }
+
+#gUpBtn{
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    bottom: 15px;
+    right: 5px;
+    
+}
+
+.arrow{
+    font-size: 50px;
+}
+
+.qans{
+    font-size: 30px;
+}
