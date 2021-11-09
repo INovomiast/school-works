@@ -473,11 +473,12 @@ if(text === '1'){
         <li>Con rima Asonante.</li>
         </ul>
         Silabas: <br>
-        11 - 9 - 11 - 8; <br>
-        8 - 7 - 14 - 10; 
+        10 - 12 - 6 - 11 - 5; <br>
+        11 - 6 - 10 - 14 - 10 - 14; <br>
+        11 - 10 - 10 - 7; 
     `;
     ans6.innerHTML = `
-        
+        NO SE QUE PONERTE DE ROSALIA! TRA TRA
     `;
 }else if(text === '12'){
     wrk_body.style.display = 'none';
@@ -486,22 +487,24 @@ if(text === '1'){
     
     //All Question Answares
     ans1.innerHTML = `
-        
+        Este texto pertenece al Genero Teatral.
     `;
     ans2.innerHTML = `
-        
+    Perteneciente al Romanticismo y Compuesto en el año 1844.
     `;
     ans3.innerHTML = `
-        
+        Habla sobre un Don Juan, que da ahi viene la expresión ser un Don Juan
+        ya que este era un ligon.
     `;
     ans4.innerHTML = `
-        
+        En si habla de la muerte, en dicha escena Don Juan habla con una estatua
+        mientras mira su funeral
     `;
     ans5.innerHTML = `
-        
+        ES UNA OBRA DE TEATRO.
     `;
     ans6.innerHTML = `
-        
+        YA NO PUEDO MÁS!
     `;
 }else if(text === '13'){
     wrk_body.style.display = 'none';
@@ -510,22 +513,22 @@ if(text === '1'){
     
     //All Question Answares
     ans1.innerHTML = `
-        
+        Este texto pertenece al Genero Teatral.
     `;
     ans2.innerHTML = `
-        
+        Perteneciente al Romanticismo y Compuesto en el año 1835.
     `;
     ans3.innerHTML = `
-        
+        Habla sobre la imposibilidad de despedida de una hija hacia su padre.
     `;
     ans4.innerHTML = `
-        
+        Habla sobre la muerte y el no aceptar la ida de una persona del mundo.
     `;
     ans5.innerHTML = `
-        
+    ES UNA OBRA DE TEATRO.
     `;
     ans6.innerHTML = `
-        
+       NAH, EL SUICIDIO ES LA MEJOR OPCION! 
     `;
 }else if(text === '14'){
     wrk_body.style.display = 'none';
@@ -534,11 +537,11 @@ if(text === '1'){
     
     //All Question Answares
     ans1.innerHTML = `
-        
+        Es un texto que pertenece a la Lirica.
     `;
     ans2.innerHTML = `
-        
-    `;
+        Perteneciente al Romanticismo y compuesta en el año [Non Avaliable Year].
+   `;
     ans3.innerHTML = `
         
     `;
@@ -546,7 +549,14 @@ if(text === '1'){
         
     `;
     ans5.innerHTML = `
-        
+    <li>Tiene 1 Estrofas.</li>
+    <li>Cada una con 15  versos.</li>
+    <li>Con rima Asonante.</li>
+    </ul>
+    Silabas: <br>
+    10 - 12 - 6 - 11 - 5; <br>
+    11 - 6 - 10 - 14 - 10 - 14; <br>
+    11 - 10 - 10 - 7;
     `;
     ans6.innerHTML = `
         
@@ -558,22 +568,24 @@ if(text === '1'){
     
     //All Question Answares
     ans1.innerHTML = `
-        
+        Este texto pertenece al Genero Teatral.
     `;
     ans2.innerHTML = `
-        
+    Perteneciente al Romanticismo y Compuesto en el año 1835.
     `;
     ans3.innerHTML = `
-        
+    Habla sobre la imposibilidad de despedida de una hija hacia su padre.
+
     `;
     ans4.innerHTML = `
-        
+    Habla sobre la muerte y el no aceptar la ida de una persona del mundo.
     `;
     ans5.innerHTML = `
-        
+    ES UNA OBRA DE TEATRO.
+
     `;
     ans6.innerHTML = `
-        
+        UFFFF, SI NO VOY A CLASE NO SE PREOCUPE!
     `;
 }else if(text === '16'){
     wrk_body.style.display = 'none';
@@ -582,21 +594,22 @@ if(text === '1'){
     
     //All Question Answares
     ans1.innerHTML = `
-        
+    El texto pertenece al genero de la Narrativa.
     `;
     ans2.innerHTML = `
-        
+    Perteneciente al Romanticismo y la fecha de composicion no me la se...
+ 
     `;
     ans3.innerHTML = `
-        
+    Habla criticando a la epoca en la que se encuentra la literatura.
     `;
     ans4.innerHTML = `
-        
+        Es una obra de caracter Critico
     `;
     ans5.innerHTML = `
-        
+    ES NOVELA O OPINION
     `;
     ans6.innerHTML = `
-        
+        YA ESTA!!
     `;
 }
