@@ -7,6 +7,8 @@ const clickable_header_3 = document.getElementById('card-accordeon-header-3');
 const accordeon_body_3 = document.getElementById('card-accordeon-body-3');
 const clickable_header_4 = document.getElementById('card-accordeon-header-4');
 const accordeon_body_4 = document.getElementById('card-accordeon-body-4');
+const clickable_header_5 = document.getElementById('card-accordeon-header-5');
+const accordeon_body_5 = document.getElementById('card-accordeon-body-5');
 
 
 //Texts
@@ -21,6 +23,7 @@ let oppened = false;
 let oppened_2 = false;
 let oppened_3 = false;
 let oppened_4 = false;
+let oppened_5 = false;
 
 clickable_header.addEventListener('click', () => {
    if(oppened === false){
@@ -78,19 +81,17 @@ clickable_header_4.addEventListener('click', () => {
     }
 });
 
-card_text_1.innerHTML = `
-    
-
-`;
-
-card_text_2.innerHTML = `
-
-`;
-
-card_text_3.innerHTML = `
-
-`;
-
-card_text_4.innerHTML = `
-
-`;
+clickable_header_5.addEventListener('click', () => {
+    console.log('accordeon_5');
+    if(oppened_5 === false){
+        accordeon_body_5.style.display = 'block';
+        accordeon_body_5.style.animation = 'backInUp 0.5s ease-in';
+        oppened_5 = true;
+    }else if(oppened_5 === true){
+            accordeon_body_5.style.animation = 'backOutLeft 0.5s ease-out';
+            setTimeout(()=>{
+             accordeon_body_5.style.display = 'none';
+            }, 500)
+            oppened_5 = false;
+    }
+});
