@@ -559,7 +559,7 @@ if(text === '1'){
     11 - 10 - 10 - 7;
     `;
     ans6.innerHTML = `
-        
+       Ufffff.... ya no puedo más... 
     `;
 }else if(text === '15'){
     wrk_body.style.display = 'none';
