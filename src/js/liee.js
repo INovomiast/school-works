@@ -9,6 +9,13 @@ const clickable_header_4 = document.getElementById('card-accordeon-header-4');
 const accordeon_body_4 = document.getElementById('card-accordeon-body-4');
 
 
+//Texts
+const card_text_1 = document.getElementById('card-1-text');
+const card_text_2 = document.getElementById('card-2-text');
+const card_text_3 = document.getElementById('card-3-text');
+const card_text_4 = document.getElementById('card-4-text');
+
+
 
 let oppened = false;
 let oppened_2 = false;
