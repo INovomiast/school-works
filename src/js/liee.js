@@ -77,3 +77,20 @@ clickable_header_4.addEventListener('click', () => {
             oppened_4 = false;
     }
 });
+
+card_text_1.innerHTML = `
+    
+
+`;
+
+card_text_2.innerHTML = `
+
+`;
+
+card_text_3.innerHTML = `
+
+`;
+
+card_text_4.innerHTML = `
+
+`;
