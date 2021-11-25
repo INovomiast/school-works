@@ -5,3 +5,25 @@
         opacity: 100%;
     }
 }
+
+@keyframes slide_down {
+    0%{
+        transform: translateY(0);
+        opacity: 100%;
+    }
+    100%{
+        transform: translateY(500px);
+        opacity: 0%;
+    }
+}
+
+@keyframes slide_appear_left {
+    0%{
+        transform: translateX(500px);
+        opacity: 0%;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 100%;
+    }
+}

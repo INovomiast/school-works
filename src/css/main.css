@@ -771,3 +771,36 @@ th{
     background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
+
+/*Zona de Confort*/
+
+.conf-body{
+    background: #EC2525;   
+}
+
+.title{
+    font-family: 'JunkDog';
+    text-align: center;
+    margin-top: 250px;
+    font-size: 150px;
+    user-select: none;
+}
+
+#btn-start{
+    width: 402px;
+    height: 71px;
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: 'JunkDog';
+    background: #008198;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    transition: all 0.5s;
+}
+
+#btn-start:hover{
+    background: #00a2be;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
