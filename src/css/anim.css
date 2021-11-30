@@ -27,3 +27,21 @@
         opacity: 100%;
     }
 }
+
+@keyframes slide_blackout {
+    0%{
+        background-color: black;
+    }
+    100%{
+        background-color: none;
+    }
+}
+
+@keyframes slide_appear_fade {
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}

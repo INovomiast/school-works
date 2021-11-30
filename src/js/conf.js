@@ -18,3 +18,12 @@ start_btn.addEventListener('click', () => {
         });
    }, 1000); 
 });
+
+next_btn_one.addEventListener('click', () => {
+    document.body.style.animation = 'slide_blackout 3s ease-out';
+    qone.style.display = 'none';
+    qone.style.animation = 'slide_blackout 3s ease-out';
+    setTimeout(() => {
+        qtwo.style.animation = 'slide_appear_fade 5s ease-in'
+    }, 3000);
+});
