@@ -24,6 +24,17 @@ next_btn_one.addEventListener('click', () => {
     qone.style.display = 'none';
     qone.style.animation = 'slide_blackout 3s ease-out';
     setTimeout(() => {
-        qtwo.style.animation = 'slide_appear_fade 5s ease-in'
+        qtwo.style.animation = 'slide_appear_fade 3s ease-in';
+        qtwo.style.display = 'block';
+    }, 3000);
+});
+
+next_btn_two.addEventListener('click', () => {
+    document.body.style.animation = 'slide_blackout 3s ease-out';
+    qtwo.style.display = 'none';
+    qtwo.style.animation = 'slide_blackout 3s ease-out';
+    setTimeout(() => {
+        qthree.style.animation = 'slide_shrink 3s ease-in';
+        qthree.style.display = 'block';
     }, 3000);
 });
