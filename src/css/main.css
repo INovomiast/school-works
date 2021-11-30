@@ -822,6 +822,11 @@ th{
     margin-top: 50px;
 }
 
+.qthree-a-img{
+    width: 450px;
+    margin-top: 10px;
+}
+
 .qone_next{
     right: 0;
     position: fixed;
@@ -864,6 +869,27 @@ th{
 }
 
 .qtwo_next:hover{
+    background-color: #ff6600;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.qthree_next{
+    right: 0;
+    position: fixed;
+    bottom: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #f12711;
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 14px;
+    border: none;
+    transition: all 0.5s;
+    border: 1.5px solid gray;
+}
+
+.qthree_next:hover{
     background-color: #ff6600;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
