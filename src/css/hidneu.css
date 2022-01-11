@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0cd1a6;
+    background-image: -webkit-gradient(to right, #096e58, #0cd1a6);
+    background-image: linear-gradient(to right, #096e58, #0cd1a6);
+}
+
+.work-header {
+    width: 100%;
+    background-color: rgb(255, 86, 86);
+    height: 65px;
+    color: white;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.work-header h1 {
+    font-size: 46px;
+    user-select: none;
+}
