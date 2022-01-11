@@ -66,3 +66,12 @@
         transform: translateY(0);
     }
 }
+
+@keyframes time_bar {
+    0%{
+        width: 2%;
+    }
+    100%{
+        width: 100%;
+    }
+}

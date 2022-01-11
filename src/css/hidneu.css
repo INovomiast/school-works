@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +9,7 @@ body {
     background-color: #0cd1a6;
     background-image: -webkit-gradient(to right, #096e58, #0cd1a6);
     background-image: linear-gradient(to right, #096e58, #0cd1a6);
+    font-family: 'Rajdhani', sans-serif;
 }
 
 .work-header {
@@ -21,4 +24,10 @@ body {
 .work-header h1 {
     font-size: 46px;
     user-select: none;
+}
+
+.work-body {
+    text-align: center;
+    color: white;
+    font-size: 22px;
 }

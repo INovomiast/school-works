@@ -1,3 +1,5 @@
+@import './anim.css';
+
 *{
     margin: 0;
     padding: 0;
@@ -47,3 +49,24 @@ body{
     border-radius: 50%;
     cursor: pointer;
 }
+
+.podcast_disp_TDisp {
+    background-color: rgb(211, 211, 211);
+    width: 20%;
+    margin-top: 10px;
+    border-radius: 30px;
+    height: 10px;
+    border: solid 2px rgb(211, 211, 211);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.podcast_disp_TDisp_fill {
+    background-color: rgb(76, 187, 231);
+    border-radius: 30px;
+    height: 10px;
+    float: left;
+    width: 0%;
+    animation: time_bar 1200s ease-in-out;
+    animation-play-state: paused;
+}
+

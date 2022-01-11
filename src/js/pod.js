@@ -18,6 +18,9 @@ let is_playing = false;
 const play_btn = document.getElementById('pod-disp-play-btn');
 const play_btn_simb = document.getElementById('pod-disp-play-btn-simb');
 
+//TimeLine Fill
+const tl_fill = document.getElementById('pod-disp-tdisp-fill');
+
 //Audio File
 const podcast = new Audio('https://inovomiast.github.io/school-works/src/media/audio/podcast.mp3')
 
@@ -26,10 +29,12 @@ play_btn.addEventListener('click', () => {
     if(is_playing == false) {
         play_btn_simb.className = pause;
         podcast.play();
+        tl_fill.style.animationPlayState = 'running';
         is_playing = true;
     }else{
         play_btn_simb.className = play;
         podcast.pause();
+        tl_fill.style.animationPlayState = 'paused'
         is_playing = false;
     }
 });
