@@ -1,4 +1,5 @@
 @import './anim.css';
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
 
 *{
     margin: 0;
@@ -7,6 +8,7 @@
 
 body{
     background-color: darkslategrey;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 .podcast_disp{
@@ -18,6 +20,7 @@ body{
     border-top-left-radius: 14px;
     border-top-right-radius: 14px;
     border: 2px solid black;
+    user-select: none;
 }
 
 .podcast_disp_play_btn{
@@ -68,5 +71,87 @@ body{
     width: 0%;
     animation: time_bar 1200s ease-in-out;
     animation-play-state: paused;
+    user-select: none;
 }
 
+table, th, td {
+    margin-top: 20px;
+    width: 50%;
+    height: 40px;
+    border: 4px solid black;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th{
+    background-color: orangered;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+td{
+    font-size: 20px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px){
+    .podcast_disp_img img{
+        width: 380px;
+    }
+    .podcast_disp_play_btn{
+        width: 380px;
+    }
+    
+    .podcast_disp_TDisp{
+        width: 50%;
+        
+    }
+    
+    table, th, td {
+        margin-top: 20px;
+        width: 70%;
+        height: 25px;
+        border: 4px solid black;
+        border-collapse: collapse;
+        background-color: white;
+    }
+    th{
+        background-color: orangered;
+        font-size: 20px;
+    }
+    td {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .podcast_disp_img img{
+        width: 312px;
+    }
+    .podcast_disp_play_btn{
+        width: 312px;
+    }
+    
+    .podcast_disp_TDisp{
+        width: 50%;
+        
+    }
+    
+    table, th, td {
+        margin-top: 20px;
+        width: 70%;
+        height: 25px;
+        border: 4px solid black;
+        border-collapse: collapse;
+        background-color: white;
+    }
+    th{
+        background-color: orangered;
+        font-size: 20px;
+    }
+    td {
+        font-size: 15px;
+    }
+}
