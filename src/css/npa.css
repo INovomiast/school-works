@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import './anim.css';
+
+
+* {
+    
+}
+
+body {
+    background-color: orangered;
+    background-image: url('https://images.vexels.com/media/users/3/214566/raw/ecee83b37227db0ca961b7897d7501b6-diseno-de-patron-de-abeja-de-panal.jpg');
+    background-repeat: repeat;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.intro {
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    -webkit-text-stroke: black 2.5px;
+}
+
+.intro h1 {
+    margin-top: 220px;
+}
+
+.start_btn {
+    width: 300px;
+    height: 100px;
+    margin-top: -100px;
+    border: 2px black solid;
+    background-color: orange;
+    font-size: 50px;
+    color: white;
+    -webkit-text-stroke: black 1.5px;
+    border-radius: 12px;
+}
+
+.start_btn:focus{
+    animation: onfocus 1s;
+}
+
+.start_btn:hover {
+    background-color: rgb(255, 145, 0);
+    user-select: none;
+    cursor: pointer;
+}
+
+.story {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.26);
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.questions {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.26);
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.finish {
+    text-align: center;
+}
+
+.paraph1 {
+    font-size: 45px;
+    color: white;
+    -webkit-text-stroke: black 1.5px;
+}
+
+.paraph2 {
+    font-size: 45px;
+    color: white;
+    -webkit-text-stroke: black 1.5px;
+}
+
+.paraph2 {
+    font-size: 45px;
+    color: white;
+    -webkit-text-stroke: black 1.5px;
+}
+
+.q1 {
+    color: white;
+    -webkit-text-stroke: black 1.5px;
+}
+
+.q1 h2 {
+    font-size: 45px;
+}
+
+.q1 p {
+    font-size: 35px;
+}
+
+.q2 {
+    color: white;
+    -webkit-text-stroke: black 1.5px;
+}
+
+.q2 h2 {
+    font-size: 45px;
+}
+
+.q2 p {
+    font-size: 35px;
+}
+
+.q3 {
+    color: white;
+    -webkit-text-stroke: black 1.5px;
+}
+
+.q3 h2 {
+    font-size: 45px;
+}
+
+.q3 p {
+    font-size: 35px;
+}
+
+.finish {
+    color: white;
+    font-size: 45px;
+    -webkit-text-stroke: 1.5px black;
+}
+
+.finish h2{
+    text-decoration: underline 5px black;
+}
+
+.next_btn {
+    width: 45%;
+    height: 50px;
+    font-size: 35px;
+    background-color: orange;
+    border: black 2px solid;
+    border-radius: 14px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.finish_btn {
+    width: 45%;
+    height: 50px;
+    font-size: 35px;
+    background-color: orange;
+    border: black 2px solid;
+    border-radius: 14px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.finish a {
+    color: white;
+}
+
+.gh_link {
+    margin-top: -45px;
+}
