@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    background-color: -webkit-gradient(to right, rgb(30, 41, 105), rgb(0, 77, 219));
+    background: linear-gradient(to right, rgb(53, 72, 182), rgb(0, 77, 219));
+    color: white;
+}  
+
+.wrk-header {
+
+    background-color: rgb(255, 110, 94);
+    height: 60px;
+    font-size: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    user-select: none;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    border: 2px solid gray;
+    border-top: none;
+}
